@@ -1,0 +1,26 @@
+:root {
+  --color: #a9adc1;
+  --headline-color: white;
+  --bg-color: #1f2028;
+}
+
+body, p, figcaption span, bar, ul span, a span, header > *, span a, li a, a, span, a > div, .package-title-wrapper > div, .summary-class {
+  color: var(--color) !important;
+  background-color: var(--bg-color) !important;
+}
+
+h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
+  color: var(--headline-color) !important;
+}
+
+.story-wrapper div, .story-wrapper p {
+  background: transparent !important;
+}
+
+.live-blog-post, .live-blog-above-main-content, .live-blog-above-main-content div, nav > section {
+   background-color: var(--bg-color) !important;
+}
+
+[aria-label="The New York Times"] > svg, [aria-label="New York Times"] > svg, [aria-label="Skip to Site Index"] g, svg, svg path {
+  fill: var(--headline-color) !important;
+}

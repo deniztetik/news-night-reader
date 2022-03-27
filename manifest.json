@@ -1,0 +1,15 @@
+{
+  "name": "News Night Reader",
+  "description": "A Dark Mode Setting for News Sites that I read",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "hello_extensions.png"
+  },
+  "content_scripts": [
+   {
+     "matches": ["https://*.nytimes.com/*"],
+     "css": ["nyt.css"]
+   }
+ ]
+}
