@@ -4,12 +4,12 @@
   --bg-color: #1f2028;
 }
 
-body, p, figcaption span, bar, ul span, a span, header > *, span a, li a, a, span, a > div, .package-title-wrapper > div, .summary-class {
+body, p, figcaption span, bar, ul span, a span, header > *, span a, li a, a, span, a > div, .package-title-wrapper > div, .summary-class, time {
   color: var(--color) !important;
   background-color: var(--bg-color) !important;
 }
 
-h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
+h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a, .related-links-block div {
   color: var(--headline-color) !important;
 }
 
@@ -17,10 +17,10 @@ h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
   background: transparent !important;
 }
 
-.live-blog-post, .live-blog-above-main-content, .live-blog-above-main-content div, nav > section {
+.live-blog-post, .live-blog-above-main-content, .live-blog-above-main-content div, nav > section, #in-story-masthead, #desktop-sections-button, [data-testid="mini-nav-sections-button"], [data-testid="mini-nav-sections-button"] svg  {
    background-color: var(--bg-color) !important;
 }
 
-[aria-label="The New York Times"] > svg, [aria-label="New York Times"] > svg, [aria-label="Skip to Site Index"] g, svg, svg path {
+[aria-label="The New York Times"] > svg, [aria-label="New York Times"] > svg, [aria-label="Skip to Site Index"] g, svg, svg path, svg rect {
   fill: var(--headline-color) !important;
 }
