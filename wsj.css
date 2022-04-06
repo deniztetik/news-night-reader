@@ -13,7 +13,7 @@ div[data-uuid] span, div[data-uuid] a, div[data-testid="column-wrapper"] div {
   color: var(--headline-color) !important;
 }
 
-header > div, header, footer > div {
+header > div, header, footer > div, li > div {
   background: var(--bg-color) !important;
 }
 
