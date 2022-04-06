@@ -1,0 +1,36 @@
+:root {
+  --color: #a9adc1;
+  --headline-color: white;
+  --bg-color: #1f2028;
+}
+
+body, figcaption, div[data-uuid] > div, div[data-testid="column-wrapper"], div[data-testid="column-wrapper"] a {
+  background: var(--bg-color) !important;
+  color: var(--color) !important;
+}
+
+div[data-uuid] span, div[data-uuid] a, div[data-testid="column-wrapper"] div {
+  color: var(--headline-color) !important;
+}
+
+header > div, header, footer > div {
+  background: var(--bg-color) !important;
+}
+
+p, p > span, li > a {
+  color: var(--color) !important;
+}
+
+h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
+  color: var(--headline-color) !important;
+}
+
+body, figcaption {
+  background: var(--bg-color) !important;
+  color: var(--color) !important;
+}
+
+svg text {
+  color: var(--color) !important;
+  fill: var(--color) !important;
+}

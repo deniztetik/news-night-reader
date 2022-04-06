@@ -10,6 +10,10 @@
    {
      "matches": ["https://*.nytimes.com/*"],
      "css": ["nyt.css"]
+   },
+   {
+     "matches": ["https://*.wsj.com/*"],
+     "css": ["wsj.css"]
    }
  ]
 }
